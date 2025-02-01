@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 我们的团队
-description: MCJPG组织团队成员列表
+title: 我的友链
+description: CHUAN友链列表
 ---
 <script setup>
 import {
@@ -44,7 +44,7 @@ const code = [
   },
 ]
 
-const community = [
+/*const community = [
   {
     avatar: '/teammate/Xiaosan.jpg',
     name: 'Xiaosan',
@@ -77,7 +77,7 @@ const community = [
   },
 ]
 
-const publicise = [
+/*const publicise = [
   {
     avatar: '/teammate/二氧化钛.jpg',
     name: '二氧化钛',
@@ -103,8 +103,8 @@ const publicise = [
 <VPTeamPage>
 
   <VPTeamPageTitle>
-    <template #title>我们的团队</template>
-    <template #lead>认识一下 MCJPG 背后的成员，这是一个 MC服务器 技术交流与宣传组织，致力于通过更快、更安全的软件和更完善的宣传改善服务器生态</template>
+    <template #title>我的友链</template>
+    <template #lead>认识一下 CHUAN 友链，申请友链请点击主页邮件申请并提交logo、博客链接、博客说明，谢谢！</template>
   </VPTeamPageTitle>
   <VPTeamPageSection>
     <template #title>开发部</template>
@@ -113,22 +113,22 @@ const publicise = [
       <VPTeamMembers size="small" :members="code" />
     </template>
   </VPTeamPageSection>
-  <VPTeamPageSection>
+  <!--<VPTeamPageSection>
     <template #title>社区部</template>
     <template #lead>MCJPG 社区部门通过审核新加入的成员服，维护交流社区的秩序，以确保 MCJPG 拥有健康向上的生命力</template>
     <template #members>
       <VPTeamMembers size="small" :members="community" />
     </template>
   </VPTeamPageSection>
-  <VPTeamPageSection>
+  <!-- <VPTeamPageSection>
     <template #title>宣传部</template>
     <template #lead>MCJPG 宣传部通过对组织和成员服的宣传，来让更多的人知道我们的行动</template>
     <template #members>
       <VPTeamMembers size="small" :members="publicise" />
     </template>
-  </VPTeamPageSection>
+  </VPTeamPageSection>-->
 
-</VPTeamPage>
+<!--</VPTeamPage>
 
 
 <center>帮助我们添加服务器的贡献者们：</center>
@@ -137,4 +137,4 @@ const publicise = [
   <img src="https://contrib.rocks/image?repo=ZhuYuxuan9302/MCJPG" alt="Contributors"/>
 </a></center>
 
-<center>对以上参与者致以敬意！</center>
+<center>对以上参与者致以敬意！</center> -->

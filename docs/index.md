@@ -4,8 +4,8 @@ layoutClass: 'm-home-layout'
 
 hero:
   name: CHUAN
-  text: 让知识生长，让灵感流动。
-  tagline: 记录我的思考、灵感与探索，从产品设计到工业智能，从阅读感悟到摄影生活，打造一个属于自己的个人知识库。
+  text: 让知识生长，流动
+  tagline: 记录思考、灵感与探索，从产品到工业智能，从阅读感悟到摄影生活，打造属于自己的个人知识库。
   image:
     src: /logo.png
     alt: 川的知识库

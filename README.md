@@ -1,16 +1,16 @@
-# MCJPG 服务器交流组织
+# CHUAN 服务器交流组织
 
-这里是Minecraft服务器集体交流组织 (MCJPG)！
+这里是Minecraft服务器集体交流组织 (CHUAN)！
 一个致力于我的世界服务器技术交流和宣传的新兴组织。
 
-[加入MCJPG社区群组](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=_8EgbwVTHXVutDu5D6nmHJZzyT7tkGQa&authKey=L%2Fu%2BWQdODZkzAtv7YqnbnXj5cdnEV9Acjb9Mt0t3ciOUPup2ibbjm8zWIa6ox5nt&noverify=0&group_code=962179358)
+[加入CHUAN社区群组](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=_8EgbwVTHXVutDu5D6nmHJZzyT7tkGQa&authKey=L%2Fu%2BWQdODZkzAtv7YqnbnXj5cdnEV9Acjb9Mt0t3ciOUPup2ibbjm8zWIa6ox5nt&noverify=0&group_code=2060768145)
 
 ## 提交服务器
 
 在提交服务器之前，请确定你的服务器满足以下要求：
 
 - 服务器能够正常运行，且不会在短时间内关闭。
-- 服务器已经加入 **MCJPG** 组织。
+- 服务器已经加入 **CHUAN** 组织。
 
 如果你的服务器满足以上要求，请按照以下步骤提交服务器：
 

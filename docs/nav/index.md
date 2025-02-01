@@ -1,8 +1,8 @@
 ---
-title: MC导航
+title: CHUAN导航
 layoutClass: m-nav-layout
 outline: [2, 3, 4]
-description: MC导航网,由MCJPG组织提供,我们致力于为大家提供更好用的Minecraft导航
+description: CHUAN导航网,收藏并记录有趣、实用的知识网站，提供便捷可视化导航分类。
 ---
 
 <script setup>
@@ -10,26 +10,24 @@ import { NAV_DATA } from './data'
 </script>
 <style src="./index.scss"></style>
 
-# Minecraft导航
+# CHUAN导航
 
 <MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
 
 <br />
 
-## 帮助我们添加链接
+## 关于我的个人导航页
 
-::: tip 如何修改导航？
-[docs/nav/data.ts](https://github.com/MineJPGcraft/MCJPG/blob/main/docs/nav/data.ts) 是导航的数据库，遵循 JSON 格式编辑即可。  
-如果您是站长，麻烦添加 [MCJPG组织](https://mcjpg.org/ "MCJPG组织官网") 到您的站点相应位置，[MCJPG组织](https://mcjpg.org/ "MCJPG组织官网") 感激不尽
+::: tip 💡 为什么要做这个导航页？
+我创建这个 个人导航页，是为了更高效地整理和管理我常用的网站、工具和资源。它不仅是我个人的知识库，也是一个便捷的入口，帮助我快速访问常用链接，同时也能与志同道合的朋友们分享优质内容。
 
-TIP: [什么是 JSON？](https://www.runoob.com/json/json-tutorial.html)
 :::
 
-::: tip 图标放在哪里？如何引用？
+<!-->::: tip 图标放在哪里？如何引用？
 
 图标位于 [docs/public/icons/nav/](https://github.com/MineJPGcraft/MCJPG/tree/main/docs/public/icons/nav/) 下已经进行分类，按照分类添加即可。
 
-``` json{1}
+<!--``` json{1}
     # 这是一个例子，亦可参照其格式进行编辑
     {
         icon: '/icons/nav/百科/中文 Minecraft Wiki.ico',
@@ -38,9 +36,9 @@ TIP: [什么是 JSON？](https://www.runoob.com/json/json-tutorial.html)
         link: 'https://zh.minecraft.wiki/',
     },
 ```
-:::
+:::-->
 
-## 特别鸣谢
+## 特别鸣谢🎉
 
 感谢 [maomao1996](https://github.com/maomao1996/) 对于导航样式模块的开发  
 感谢 [磁铁开发部（MDD）](https://github.com/MSCMDD "磁铁开发部（MDD）") 对导航样式的二次开发以及内容错误的修正与导航的补充

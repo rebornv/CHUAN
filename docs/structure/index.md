@@ -44,7 +44,7 @@ const code = [
   },
 ]
 
-/*const community = [
+const community = [
   {
     avatar: '/teammate/Xiaosan.jpg',
     name: 'Xiaosan',
@@ -77,7 +77,7 @@ const code = [
   },
 ]
 
-/*const publicise = [
+const publicise = [
   {
     avatar: '/teammate/二氧化钛.jpg',
     name: '二氧化钛',
@@ -113,14 +113,14 @@ const code = [
       <VPTeamMembers size="small" :members="code" />
     </template>
   </VPTeamPageSection>
-  <!--<VPTeamPageSection>
+  <VPTeamPageSection>
     <template #title>社区部</template>
     <template #lead>MCJPG 社区部门通过审核新加入的成员服，维护交流社区的秩序，以确保 MCJPG 拥有健康向上的生命力</template>
     <template #members>
       <VPTeamMembers size="small" :members="community" />
     </template>
   </VPTeamPageSection>
-  <!-- <VPTeamPageSection>
+  <VPTeamPageSection>
     <template #title>宣传部</template>
     <template #lead>MCJPG 宣传部通过对组织和成员服的宣传，来让更多的人知道我们的行动</template>
     <template #members>
@@ -128,10 +128,10 @@ const code = [
     </template>
   </VPTeamPageSection>-->
 
-<!--</VPTeamPage>
+</VPTeamPage>
 
 
-<center>帮助我们添加服务器的贡献者们：</center>
+<!--<center>帮助我们添加服务器的贡献者们：</center>
 
 <center><a href="https://github.com/ZhuYuxuan9302/MCJPG/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ZhuYuxuan9302/MCJPG" alt="Contributors"/>

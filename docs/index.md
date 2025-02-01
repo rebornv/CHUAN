@@ -3,18 +3,18 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: MCJPG
-  text: 服务器交流组织
-  tagline: 一个致力于Minecraft技术交流和服务器宣传的组织</br>无论你是玩家还是服主，这里都是优秀的交流社区
+  name: CHUAN
+  text: 让知识生长，让灵感流动。
+  tagline: 记录我的思考、灵感与探索，从产品设计到工业智能，从阅读感悟到摄影生活，打造一个属于自己的个人知识库。
   image:
     src: /logo.png
-    alt: MCJPG组织
+    alt: 川的知识库
   actions:
-    - text: 加入社区群组
-      link: https://qm.qq.com/q/bAZle5ABzy
+    - text: 我的相册
+      link: https://keval.top
     - theme: sponsor
-      text: 社区MC导航
-      link: /nav/
+      text: 我的图床
+      link: https://tuchuan.yunlianzhigong.com
     - theme: sponsor
       text: 组织专栏
       link: /press/

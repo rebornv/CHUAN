@@ -20,8 +20,8 @@ export const en_US = defineConfig({
           },
       
         footer: {
-            message: 'MCJPG Server Exchange Organization',
-            copyright: 'Copyright © 2025-present <a href="https://mcjpg.org/en/">MCJPG</a>— —<a href="https://github.com/MineJPGcraft/MCJPG">Repository for website</a>'
+            message: 'CHUAN Server Exchange Organization',
+            copyright: 'Copyright © 2025-present <a href="https://www.yunlianzhigong.com/">CHUAN</a>— —<a href="https://github.com/rebornv/CHUAN">Repository for website</a>'
           },
       
         lastUpdated: {

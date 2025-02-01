@@ -15,9 +15,9 @@ hero:
     - theme: sponsor
       text: 我的图床
       link: https://tuchuan.yunlianzhigong.com
-    - theme: sponsor
-      text: 组织专栏
-      link: /press/
+    #- theme: sponsor
+      #text: 组织专栏
+      #link: /press/
 
 features:
    
@@ -57,7 +57,7 @@ features:
     linkText: 加入面包人大队！
 
   - icon:
-      src: /server_icons/Unknown.png
+      src: https://tuchuan.yunlianzhigong.com/i/2025/02/01/lzipik.png
     title: RedStarMC
     details: 版本：JAVA 1.7-1.21</br>粘液科技  与  插件生存
     link: https://www.redstarmc.top

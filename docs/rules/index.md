@@ -59,6 +59,10 @@ editLink: false
 服务器版本：
 宣传链接：
 ```
+$ pnpm i
+Packages: +270
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Resolving: total 270, reused 259, downloaded 0
 
 ### 等待审核结果
 
@@ -66,7 +70,7 @@ editLink: false
 
 我们的GitHub页面：https://github.com/MineJPGcraft/MCJPG
 
-帮助我们添加服务器的贡献者们：
+<!--帮助我们添加服务器的贡献者们：
 
 <a href="https://github.com/ZhuYuxuan9302/MCJPG/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ZhuYuxuan9302/MCJPG" alt="Contributors"/>

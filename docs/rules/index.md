@@ -157,46 +157,49 @@ editLink: false
   </div>
 
   <script>
-    const cmdOutput = document.getElementById('cmdOutput');
-    const cursor = document.querySelector('.cursor');
+    import { onMounted } from 'vue';
 
-    // Simulate typing effect
-    const textToType = [
-      'zoltan@zoltan-pc:~/src/express$ pnpm i\n',
-      'Packages: +270\n',
-      '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n',
-      'Resolving: total 270, reused 259, downloaded 0\n'
-    ];
+    // Ensure code only runs in the browser
+    onMounted(() => {
+      const cmdOutput = document.getElementById('cmdOutput');
+      const cursor = document.querySelector('.cursor');
 
-    let i = 0;
-    let j = 0;
-    let line = '';
+      // Simulate typing effect
+      const textToType = [
+        'zoltan@zoltan-pc:~/src/express$ pnpm i\n',
+        'Packages: +270\n',
+        '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n',
+        'Resolving: total 270, reused 259, downloaded 0\n'
+      ];
 
-    function typeLine() {
-      if (i < textToType.length) {
-        line = textToType[i];
-        j = 0;
-        typeCharacter();
+      let i = 0;
+      let j = 0;
+      let line = '';
+
+      function typeLine() {
+        if (i < textToType.length) {
+          line = textToType[i];
+          j = 0;
+          typeCharacter();
+        }
       }
-    }
 
-    function typeCharacter() {
-      if (j < line.length) {
-        cmdOutput.textContent += line[j];  // Update with textContent
-        j++;
-        setTimeout(typeCharacter, 50); // Adjust speed of typing here
-      } else {
-        i++;
-        setTimeout(typeLine, 500); // Wait before typing the next line
+      function typeCharacter() {
+        if (j < line.length) {
+          cmdOutput.textContent += line[j];  // Update with textContent
+          j++;
+          setTimeout(typeCharacter, 50); // Adjust speed of typing here
+        } else {
+          i++;
+          setTimeout(typeLine, 500); // Wait before typing the next line
+        }
       }
-    }
 
-    typeLine();
+      typeLine();
+    });
   </script>
 </body>
 </html>
-
-
 
 
 

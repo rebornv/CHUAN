@@ -11,13 +11,29 @@ editLink: false
 </div>
 
 
-# 川的知识库
 
-![个人头像](https://your-image-link.jpg) <!-- 替换为你的头像链接 -->
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="https://your-image-link.jpg" alt="个人头像" style="border-radius: 50%; width: 150px; height: 150px; animation: rotate 10s infinite linear;">
+</div>
+
+<style>
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+</style>
 
 > **播放音乐：**
-> [点击播放川的歌曲](https://keval.top/MP3/woaini.mp3)
-
+<div style="text-align: center;">
+  <audio controls>
+    <source src="https://keval.top/MP3/woaini.mp3" type="audio/mp3">
+    您的浏览器不支持音频元素。
+  </audio>
+</div>
 ---
 
 ## 个人信息

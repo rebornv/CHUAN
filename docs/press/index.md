@@ -5,7 +5,7 @@ description: MCJPG组织专栏的简介
 next: false
 footer: false
 ---
-# MCJPG组织专栏
+# CHUAN知识库
 ## 简介
 这里是 **MCJPG** 组织专栏的主页<br>
 在这里，你可以通过我们的专栏看见 **MCJPG** 组织的历史以及事件<br>

@@ -60,10 +60,15 @@ editLink: false
 宣传链接：
 ```
 
-$ pnpm i
-Packages: +270
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Resolving: total 270, reused 259, downloaded 0
+<pre class="language-bash">
+  <code>
+    pnpm i
+    Packages: +270
+    +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    Resolving: total 270, reused 259, downloaded 0
+  </code>
+</pre>
+
 
 ### 等待审核结果
 

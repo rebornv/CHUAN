@@ -57,9 +57,9 @@ editLink: false
 ::: tip
 你可以通过以下方式与我取得联系：
 
-- **邮箱**: [your-email@example.com](mailto:your-email@example.com)
-- **GitHub**: [https://github.com/yourusername](https://github.com/yourusername)
-- **知乎**: [https://www.zhihu.com/people/yourusername](https://www.zhihu.com/people/yourusername)
+- **邮箱**: [falchuan@163.com](mailto:your-email@example.com)
+- **GitHub**: [https://github.com/rebornv/CHUAN](https://github.com/yourusername)
+- **知乎**: [https://www.zhihu.com/people/di-shang-de-yi-li-chen-ai](https://www.zhihu.com/people/di-shang-de-yi-li-chen-ai)
 - **QQ**: 2060768145
 :::
 

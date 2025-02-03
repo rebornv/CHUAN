@@ -36,10 +36,10 @@ editLink: false
 
 ## 个人信息
 
-<div style="background-color: #f4f4f9; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); margin-bottom: 30px; text-align: center;">
-  <h2 style="font-family: 'Arial', sans-serif; font-size: 24px; color: #333;">川的知识库</h2>
-  <p style="font-family: 'Arial', sans-serif; font-size: 20px; color: #4CAF50; margin-bottom: 10px;">自媒体作者 | 制造业数字化转型项目经理</p>
-  <p style="font-family: 'Arial', sans-serif; font-size: 16px; color: #777; font-style: italic;">人生格言：生活在光阴中，追寻未知与真理。</p>
+<div style="background-color: #ffffff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); margin-bottom: 30px; text-align: center; border-left: 5px solid #4CAF50;">
+  <h2 style="font-family: 'Arial', sans-serif; font-size: 26px; color: #333; margin-bottom: 10px;">川的知识库</h2>
+  <p style="font-family: 'Arial', sans-serif; font-size: 18px; color: #4CAF50; margin-bottom: 10px; font-weight: bold;">自媒体作者 | 制造业数字化转型项目经理</p>
+  <p style="font-family: 'Arial', sans-serif; font-size: 16px; color: #777; font-style: italic; margin-bottom: 10px;">人生格言：生活在光阴中，追寻未知与真理。</p>
   <p style="font-family: 'Arial', sans-serif; font-size: 18px; color: #555;">爱好：摄影 | 书籍 | 音乐 | 研究</p>
 </div>
 

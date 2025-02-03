@@ -110,6 +110,7 @@ editLink: false
       font-size: 16px;
       white-space: pre-wrap;
       line-height: 1.5;
+      position: relative; /* Ensure cursor is positioned correctly */
     }
 
     .input-line {
@@ -120,13 +121,16 @@ editLink: false
     .output-line {
       color: #f8f8f2;
     }
-    
+
     .cursor {
       display: inline-block;
       width: 10px;
       height: 20px;
       background-color: #f8f8f2;
       animation: blink 1s infinite;
+      position: absolute;
+      top: 0;
+      right: 0;
     }
 
     @keyframes blink {
@@ -178,7 +182,7 @@ editLink: false
 
     function typeCharacter() {
       if (j < line.length) {
-        cmdOutput.innerHTML = cmdOutput.innerHTML + line[j];
+        cmdOutput.textContent += line[j];  // Update with textContent
         j++;
         setTimeout(typeCharacter, 50); // Adjust speed of typing here
       } else {
@@ -191,6 +195,7 @@ editLink: false
   </script>
 </body>
 </html>
+
 
 
 

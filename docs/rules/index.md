@@ -36,10 +36,6 @@ editLink: false
 
 ## 个人信息
 
-- **名称**: 👤 川的知识库
-- **职业**: 💼 自媒体作者 | 制造业数字化转型项目经理
-- **人生格言**: 📝  <span style="background: linear-gradient(to right, #ff7e5f, #feb47b); -webkit-background-clip: text; color: transparent;">生活在光阴中，追寻未知与真理。</span>
-- **爱好**: ❤️ 摄影 | 书籍 | 音乐 | 研究
 
 ---
 ## 个人经历

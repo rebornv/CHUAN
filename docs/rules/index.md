@@ -5,53 +5,58 @@ next: false
 editLink: false
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      background-color: #282c34;
-      font-family: 'Courier New', Courier, monospace;
-      color: #f8f8f2;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-    }
+<div style="text-align: center;">
+<img src="https://tuchuan.yunlianzhigong.com/i/2025/01/20/m05kb7.jpg" alt="团队会议图片" width="500" style="border: 2px solid #4CAF50; border-radius: 10px;">
+<p style="font-size: 14px; color: gray;">书中自有黄金屋。</p>
+</div>
 
-    .image-container {
-      text-align: center;
-      margin: 20px;
-    }
 
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-    }
+# 川的知识库
 
-    .caption {
-      font-size: 18px;
-      margin-top: 10px;
-      color: #f8f8f2;
-    }
-  </style>
-</head>
-<body>
+![个人头像](https://your-image-link.jpg) <!-- 替换为你的头像链接 -->
 
-  <div class="image-container">
-    <img src="your-image-url-here.jpg" alt="Book shelf">
-    <div class="caption">书中自有黄金屋。</div>
-  </div>
+> **播放音乐：**
+> [点击播放川的歌曲](https://keval.top/MP3/woaini.mp3)
 
-</body>
-</html>
+---
+
+## 个人信息
+
+- **名称**: 川的知识库
+- **职业**: 自媒体作者、制造业数字化转型项目经理
+- **人生格言**: 生活在光阴中，追寻未知与真理。
+- **爱好**: 摄影、书籍、音乐、研究
+
+---
+
+## 个人经历
+
+从大学时期对摄影和书籍的热爱开始，我逐渐走向了自媒体创作的道路。在探索自媒体的过程中，我发现自己不仅热衷于内容创作，同时也在制造业数字化转型领域积累了大量的经验。通过不断研究新技术和创新方法，我希望能够在我的个人博客中与更多人分享我的思考与经历。
+
+我的经历从不止步于个人兴趣的探索，更融入了对行业变化的敏锐观察。如今的我，既是一名自媒体创作者，也是一名致力于推动制造业向数字化转型的项目经理。两者并行不悖，我的博客将继续记录这些旅程中的点点滴滴，期待与志同道合的人共同进步。
+
+---
+
+## 建站初心
+
+这片知识库的建立源自于我对分享和传递知识的热忱。我希望通过这个平台，整理与记录自己在摄影、书籍、技术、数字化转型等方面的探索与思考，并与读者分享我的心得体会。同时，这也将成为我个人发展的见证，记录每一个成长的瞬间。
+
+每个人的学习与成长都是独一无二的，站在今天的角度回望过去，我愿意通过这个平台把我的经验与故事传递给更多人。
+
+---
+
+## 联系我
+
+你可以通过以下方式与我取得联系：
+
+- **邮箱**: [your-email@example.com](mailto:your-email@example.com)
+- **GitHub**: [https://github.com/yourusername](https://github.com/yourusername)
+- **知乎**: [https://www.zhihu.com/people/yourusername](https://www.zhihu.com/people/yourusername)
+- **QQ**: 123456789
+
+---
+
+感谢你访问我的个人博客！如果你有任何问题或想法，随时欢迎联系我。
 
 
 # 关于我

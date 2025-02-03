@@ -80,6 +80,7 @@ editLink: false
       padding: 20px;
       background-color: #1e1f26;
       border-radius: 8px;
+      border: 2px solid #333;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
       overflow: hidden;
     }
@@ -95,15 +96,18 @@ editLink: false
       height: 15px;
       margin-right: 5px;
       border-radius: 50%;
-      background-color: #ff5f57;
+    }
+
+    .header .green {
+      background-color: #27c93f;
     }
 
     .header .yellow {
       background-color: #ffbd2e;
     }
 
-    .header .green {
-      background-color: #27c93f;
+    .header .red {
+      background-color: #ff5f57;
     }
 
     .cmd-output {
@@ -114,7 +118,6 @@ editLink: false
     }
 
     .input-line {
-      display: inline;
       color: #8be9fd;
     }
 
@@ -130,7 +133,7 @@ editLink: false
       animation: blink 1s infinite;
       position: absolute;
       top: 0;
-      right: 0;
+      left: 100%;
     }
 
     @keyframes blink {
@@ -150,56 +153,52 @@ editLink: false
     <div class="cmd-output" id="cmdOutput">
       <div class="input-line">zoltan@zoltan-pc:~/src/express$ pnpm i</div>
       <div class="output-line">Packages: +270</div>
-      <div class="output-line">++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</div>
+      <div class="output-line">+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</div>
       <div class="output-line">Resolving: total 270, reused 259, downloaded 0</div>
       <span class="cursor"></span>
     </div>
   </div>
 
   <script>
-    import { onMounted } from 'vue';
+    const cmdOutput = document.getElementById('cmdOutput');
+    const cursor = document.querySelector('.cursor');
 
-    // Ensure code only runs in the browser
-    onMounted(() => {
-      const cmdOutput = document.getElementById('cmdOutput');
-      const cursor = document.querySelector('.cursor');
+    // Simulate typing effect
+    const textToType = [
+      'zoltan@zoltan-pc:~/src/express$ pnpm i\n',
+      'Packages: +270\n',
+      '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n',
+      'Resolving: total 270, reused 259, downloaded 0\n'
+    ];
 
-      // Simulate typing effect
-      const textToType = [
-        'zoltan@zoltan-pc:~/src/express$ pnpm i\n',
-        'Packages: +270\n',
-        '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n',
-        'Resolving: total 270, reused 259, downloaded 0\n'
-      ];
+    let i = 0;
+    let j = 0;
+    let line = '';
 
-      let i = 0;
-      let j = 0;
-      let line = '';
-
-      function typeLine() {
-        if (i < textToType.length) {
-          line = textToType[i];
-          j = 0;
-          typeCharacter();
-        }
+    function typeLine() {
+      if (i < textToType.length) {
+        line = textToType[i];
+        j = 0;
+        typeCharacter();
       }
+    }
 
-      function typeCharacter() {
-        if (j < line.length) {
-          cmdOutput.textContent += line[j];  // Update with textContent
-          j++;
-          setTimeout(typeCharacter, 50); // Adjust speed of typing here
-        } else {
-          i++;
-          setTimeout(typeLine, 500); // Wait before typing the next line
-        }
+    function typeCharacter() {
+      if (j < line.length) {
+        cmdOutput.innerHTML = cmdOutput.innerHTML + line[j];
+        j++;
+        setTimeout(typeCharacter, 50); // Adjust speed of typing here
+      } else {
+        i++;
+        setTimeout(typeLine, 500); // Wait before typing the next line
       }
+    }
 
-      typeLine();
-    });
+    typeLine();
   </script>
 </body>
 </html>
+
 
 
 

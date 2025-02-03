@@ -5,6 +5,11 @@ next: false
 editLink: false
 ---
 
+<div style="text-align: center;">
+<img src="https://tuchuan.yunlianzhigong.com/i/2025/01/20/m05kb7.jpg" alt="团队会议图片" width="500" style="border: 2px solid #4CAF50; border-radius: 10px;">
+<p style="font-size: 14px; color: gray;">书中自有黄金屋。</p>
+</div>
+
 # 关于我
 
 <div style="background-color: #282c34; color: #f8f8f2; padding: 20px; border-radius: 8px;">

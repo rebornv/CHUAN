@@ -69,6 +69,42 @@ editLink: false
   </code>
 </pre>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    pre {
+      background-color: #282c34;
+      color: #f8f8f2;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .cmd {
+      color: #8be9fd;
+    }
+
+    .path {
+      color: #50fa7b;
+    }
+
+    .output {
+      color: #ffb86c;
+    }
+  </style>
+</head>
+<body>
+  <pre><code>
+<span class="cmd">zoltan@zoltan-pc</span><span class="path">:~/src/express$</span> pnpm i
+<span class="output">Resolving: total 107, reused 82, downloaded 0</span>
+  </code></pre>
+</body>
+</html>
+
 
 ### 等待审核结果
 

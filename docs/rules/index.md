@@ -110,7 +110,7 @@ editLink: false
       font-size: 16px;
       white-space: pre-wrap;
       line-height: 1.5;
-      position: relative; /* Ensure cursor is positioned correctly */
+      position: relative;
     }
 
     .input-line {
@@ -195,6 +195,7 @@ editLink: false
   </script>
 </body>
 </html>
+
 
 
 

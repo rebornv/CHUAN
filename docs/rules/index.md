@@ -6,35 +6,18 @@ editLink: false
 ---
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://your-image-link.jpg" alt="个人头像" style="border-radius: 50%; width: 150px; height: 150px; animation: rotate 10s infinite linear;">
-</div>
-
-<style>
-  @keyframes rotate {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-</style>
-
-> **播放音乐：**
-<div style="text-align: center;">
   <audio controls style="width: 250px;">
     <source src="https://keval.top/MP3/woaini.mp3" type="audio/mp3">
     您的浏览器不支持音频元素。
   </audio>
 </div>
 
-<div style="text-align: center;">
-<img src="https://tuchuan.yunlianzhigong.com/i/2025/01/20/m05kb7.jpg" alt="团队会议图片" width="500" style="border: 2px solid #4CAF50; border-radius: 10px;">
-<p style="font-size: 14px; color: gray;">书中自有黄金屋。</p>
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="https://tuchuan.yunlianzhigong.com/i/2025/01/20/m05kb7.jpg" alt="团队会议图片" width="500" style="border: 2px solid #4CAF50; border-radius: 10px;">
+  <p style="font-size: 14px; color: gray;">书中自有黄金屋。</p>
 </div>
 
-
-<div style="text-align: center; margin-bottom: 20px;">
+<div style="text-align: center; margin-bottom: 40px;">
   <img src="https://tuchuan.yunlianzhigong.com/i/2025/02/03/m3lhza.jpg" alt="个人头像" style="border-radius: 50%; width: 150px; height: 150px; animation: rotate 10s infinite linear;">
 </div>
 
@@ -48,6 +31,7 @@ editLink: false
     }
   }
 </style>
+
 
 
 ## 个人信息

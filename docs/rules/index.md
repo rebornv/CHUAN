@@ -75,35 +75,132 @@ editLink: false
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    pre {
+    body {
       background-color: #282c34;
-      color: #f8f8f2;
-      padding: 10px;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
       font-family: 'Courier New', Courier, monospace;
+      color: #f8f8f2;
+      margin: 0;
+      padding: 0;
     }
 
-    .cmd {
+    .terminal {
+      width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #1e1f26;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+    }
+
+    .header {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 10px;
+    }
+
+    .header div {
+      width: 15px;
+      height: 15px;
+      margin-right: 5px;
+      border-radius: 50%;
+      background-color: #ff5f57;
+    }
+
+    .header .yellow {
+      background-color: #ffbd2e;
+    }
+
+    .header .green {
+      background-color: #27c93f;
+    }
+
+    .cmd-output {
+      font-size: 16px;
+      white-space: pre-wrap;
+      line-height: 1.5;
+    }
+
+    .input-line {
+      display: inline;
       color: #8be9fd;
     }
 
-    .path {
-      color: #50fa7b;
+    .output-line {
+      color: #f8f8f2;
+    }
+    
+    .cursor {
+      display: inline-block;
+      width: 10px;
+      height: 20px;
+      background-color: #f8f8f2;
+      animation: blink 1s infinite;
     }
 
-    .output {
-      color: #ffb86c;
+    @keyframes blink {
+      50% {
+        background-color: transparent;
+      }
     }
   </style>
 </head>
 <body>
-  <pre><code>
-<span class="cmd">zoltan@zoltan-pc</span><span class="path">:~/src/express$</span> pnpm i
-<span class="output">Resolving: total 107, reused 82, downloaded 0</span>
-  </code></pre>
+  <div class="terminal">
+    <div class="header">
+      <div class="green"></div>
+      <div class="yellow"></div>
+      <div class="red"></div>
+    </div>
+    <div class="cmd-output" id="cmdOutput">
+      <div class="input-line">zoltan@zoltan-pc:~/src/express$ pnpm i</div>
+      <div class="output-line">Packages: +270</div>
+      <div class="output-line">++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</div>
+      <div class="output-line">Resolving: total 270, reused 259, downloaded 0</div>
+      <span class="cursor"></span>
+    </div>
+  </div>
+
+  <script>
+    const cmdOutput = document.getElementById('cmdOutput');
+    const cursor = document.querySelector('.cursor');
+
+    // Simulate typing effect
+    const textToType = [
+      'zoltan@zoltan-pc:~/src/express$ pnpm i\n',
+      'Packages: +270\n',
+      '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n',
+      'Resolving: total 270, reused 259, downloaded 0\n'
+    ];
+
+    let i = 0;
+    let j = 0;
+    let line = '';
+
+    function typeLine() {
+      if (i < textToType.length) {
+        line = textToType[i];
+        j = 0;
+        typeCharacter();
+      }
+    }
+
+    function typeCharacter() {
+      if (j < line.length) {
+        cmdOutput.innerHTML = cmdOutput.innerHTML + line[j];
+        j++;
+        setTimeout(typeCharacter, 50); // Adjust speed of typing here
+      } else {
+        i++;
+        setTimeout(typeLine, 500); // Wait before typing the next line
+      }
+    }
+
+    typeLine();
+  </script>
 </body>
 </html>
+
 
 
 ### 等待审核结果

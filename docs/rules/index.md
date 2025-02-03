@@ -194,6 +194,73 @@ editLink: false
 </div>
 
 
+# 川的知识库
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="https://tuchuan.yunlianzhigong.com/i/2025/02/03/m3lhza.jpg" alt="个人头像" style="border-radius: 50%; width: 150px; height: 150px; animation: rotate 10s infinite linear; border: 5px solid #4CAF50; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);">
+</div>
+
+<style>
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+
+## 个人信息
+
+<div style="background-color: #ffffff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); margin-bottom: 30px; text-align: center;">
+  <h2 style="font-family: 'Arial', sans-serif; font-size: 26px; color: #333; margin-bottom: 10px;">川的知识库</h2>
+  <p style="font-family: 'Arial', sans-serif; font-size: 18px; color: #4CAF50; margin-bottom: 10px; font-weight: bold;">自媒体作者 | 制造业数字化转型项目经理</p>
+  <p style="font-family: 'Arial', sans-serif; font-size: 16px; color: #777; font-style: italic; margin-bottom: 10px;">人生格言：生活在光阴中，追寻未知与真理。</p>
+  <p style="font-family: 'Arial', sans-serif; font-size: 18px; color: #555;">爱好：摄影 | 书籍 | 音乐 | 研究</p>
+</div>
+
+---
+
+## 提交、反馈与联系我们
+
+<div style="text-align: center; margin-bottom: 30px;">
+  <a href="https://github.com/yourusername" style="text-decoration: none; margin: 5px; display: inline-block; background-color: #4CAF50; color: white; padding: 10px 20px; border-radius: 5px;">Fork</a>
+  <a href="mailto:your-email@example.com" style="text-decoration: none; margin: 5px; display: inline-block; background-color: #FF5C5C; color: white; padding: 10px 20px; border-radius: 5px;">联系我</a>
+  <a href="https://github.com/yourusername/your-repository/pulls" style="text-decoration: none; margin: 5px; display: inline-block; background-color: #2A85D8; color: white; padding: 10px 20px; border-radius: 5px;">Pull Request</a>
+</div>
+
+---
+
+## 个人经历
+
+<div style="background-color: #ffffff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); margin-bottom: 30px;">
+  <h3 style="font-family: 'Arial', sans-serif; font-size: 22px; color: #333; margin-bottom: 20px;">个人经历</h3>
+  <p style="font-family: 'Arial', sans-serif; font-size: 16px; color: #555;">
+    从大学时期对摄影和书籍的热爱开始，我逐渐走向了自媒体创作的道路。在探索自媒体的过程中，我发现自己不仅热衷于内容创作，同时也在制造业数字化转型领域积累了大量的经验。通过不断研究新技术和创新方法，我希望能够在我的个人博客中与更多人分享我的思考与经历。
+  </p>
+</div>
+
+---
+
+## 联系我
+
+<div style="background-color: #ffffff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); margin-bottom: 30px;">
+  <h3 style="font-family: 'Arial', sans-serif; font-size: 22px; color: #333; margin-bottom: 20px;">联系方式</h3>
+  <ul style="list-style-type: none; padding-left: 0;">
+    <li style="font-family: 'Arial', sans-serif; font-size: 16px; color: #555; margin-bottom: 10px;">
+      <strong>邮箱:</strong> [your-email@example.com](mailto:your-email@example.com)
+    </li>
+    <li style="font-family: 'Arial', sans-serif; font-size: 16px; color: #555; margin-bottom: 10px;">
+      <strong>GitHub:</strong> [https://github.com/yourusername](https://github.com/yourusername)
+    </li>
+  </ul>
+</div>
+
+---
+
+感谢你访问我的个人博客！如果你有任何问题或想法，随时欢迎联系我。
+
 
 
 

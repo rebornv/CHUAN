@@ -39,8 +39,6 @@ editLink: false
 - **人生格言**: 📝  <span style="background: linear-gradient(to right, #ff7e5f, #feb47b); -webkit-background-clip: text; color: transparent;">生活在光阴中，追寻未知与真理。</span>
 - **爱好**: ❤️ 摄影 | 书籍 | 音乐 | 研究
 
----
-
 ## 个人经历
 <div style="background-color: #282c34; color: #f8f8f2; padding: 20px; border-radius: 8px;">
   <h3>在探索自媒体的过程中，我发现自己不仅热衷于内容创作，同时也在制造业数字化转型领域积累了大量的经验。通过不断研究新技术和创新方法，我希望能够在我的个人博客中与更多人分享我的思考与经历。</h3>

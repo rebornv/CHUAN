@@ -3,12 +3,12 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: MCJPG
+  name: CHUAN
   text: 伺服器宣傳組織
   tagline: 此乃礦藝技藝交流和伺服器宣傳组织</br>無論君乃戲者亦或伺服器之主，此處均為風水寶地
   image:
     src: /logo.png
-    alt: MCJPG組織
+    alt: CHUAN知识库
   actions:
     - text: 進組織群組
       link: https://qm.qq.com/q/bAZle5ABzy

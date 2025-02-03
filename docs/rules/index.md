@@ -28,15 +28,6 @@ editLink: false
   </audio>
 </div>
 
-
-
-<div style="text-align: center;">
-  <audio controls>
-    <source src="https://keval.top/MP3/woaini.mp3" type="audio/mp3">
-    您的浏览器不支持音频元素。
-  </audio>
-</div>
-
 <div style="text-align: center;">
 <img src="https://tuchuan.yunlianzhigong.com/i/2025/01/20/m05kb7.jpg" alt="团队会议图片" width="500" style="border: 2px solid #4CAF50; border-radius: 10px;">
 <p style="font-size: 14px; color: gray;">书中自有黄金屋。</p>

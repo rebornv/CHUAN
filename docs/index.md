@@ -183,26 +183,26 @@ features:
   #  linkText: 加入TS大家庭
 
   - icon:
-      src: /server_icons/Craft233.png
-    title: Craft233
-    details: 版本：Java 1.20-1.21.1</br>Craft233，一个休闲养老摸鱼系的Minecraft小服务器，欢迎加入我们，同我们一起成长！
-    link: https://www.craft233.top
-    linkText: 前往官网
+      src: https://tuchuan.yunlianzhigong.com/i/2025/02/03/1164hzu.png
+    title: 我的相册
+    details: 欢迎来到我的相册！这是我记录生活点滴、探索世界的地方。在这里，每一张照片背后都有一段故事，每一幅画面都是我感知世界的方式。从旅行的美丽景点到日常生活中的温馨瞬间，我将这些宝贵的记忆通过镜头捕捉下来，与你们分享。希望每一张照片都能带给你们一份感动，让我们一起珍惜这段光阴。
+    link: https://keval.top/
+    linkText: 前往相册
 
 
   - icon:
-      src: /server_icons/TACS_茶水晶服务器.svg
+      src: https://tuchuan.yunlianzhigong.com/i/2025/02/03/1164glw.png
     title: 🍵TACS/茶水晶服务器🍵
-    details: 版本:Java 1.20.4 Fabric 需要正版</br>不管你是摸鱼的 搞生电的 搞建筑的 来交流的 来学习的 都可以加入我们</br>服务器为i5-13600KF+32G运存 审核通过后您方可加入服务器
-    link: https://tacserver.cn
-    linkText: 🍵进服喝茶🍵
+    details: 在这个快速发展的时代，人工智能正在改变我们生活的方方面面。从机器学习到自然语言处理，再到图像识别，我致力于为大家分享人工智能领域的最新发展和实践应用。通过我的自媒体平台，你将了解AI如何深刻影响工业、教育、医疗、生活等各个行业，并通过具体案例和技术解析，让你更好地理解这些技术如何改变我们的未来。
+    link:       
+    linkText: 🍵请查看详情🍵
 
   - icon:
-      src: /server_icons/Paradox.png
+      src: https://tuchuan.yunlianzhigong.com/i/2025/02/03/1164r88.png
     title: Paradox Server
-    details: 版本：JAVA互通 1.20.4 - 1.8.9 | 生电 / 生存</br>一个Fabric的生电服，群700450401
-    link: host.namespace-serivce.com
-    linkText: 服务器群 700450401
+    details: 智能制造正在成为未来工厂的核心。随着技术的不断进步，制造业也在向数字化转型迈进。我的目标是推动企业在数字化、智能化方面的全面升级，包括引入智能设备、物联网、云计算等技术，提升生产效率和管理水平。我将带领你了解如何通过数字化转型提升企业竞争力，同时介绍一些成功的案例和实用的实施方案，帮助企业走上智能制造之路。
+    link: 
+    linkText: 查看详情
 
   #- icon:
       #dark: /server_icons/BluecraftLogo-L.png

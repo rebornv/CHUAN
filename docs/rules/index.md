@@ -60,88 +60,11 @@ editLink: false
 宣传链接：
 ```
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      background-color: #282c34;
-      font-family: 'Courier New', Courier, monospace;
-      color: #f8f8f2;
-      margin: 0;
-      padding: 0;
-    }
-
-    .terminal {
-      width: 600px;
-      margin: 50px auto;
-      padding: 20px;
-      background-color: #1e1f26;
-      border-radius: 8px;
-      border: 2px solid #333;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-      overflow: hidden;
-    }
-
-    .header {
-      display: flex;
-      justify-content: flex-start;
-      margin-bottom: 10px;
-    }
-
-    .header div {
-      width: 15px;
-      height: 15px;
-      margin-right: 5px;
-      border-radius: 50%;
-    }
-
-    .header .green {
-      background-color: #27c93f;
-    }
-
-    .header .yellow {
-      background-color: #ffbd2e;
-    }
-
-    .header .red {
-      background-color: #ff5f57;
-    }
-
-    .cmd-output {
-      font-size: 16px;
-      white-space: pre-wrap;
-      line-height: 1.5;
-    }
-
-    .input-line {
-      color: #8be9fd;
-    }
-
-    .output-line {
-      color: #f8f8f2;
-    }
-
-  </style>
-</head>
-<body>
-  <div class="terminal">
-    <div class="header">
-      <div class="green"></div>
-      <div class="yellow"></div>
-      <div class="red"></div>
-    </div>
-    <div class="cmd-output">
-      <div class="input-line">zoltan@zoltan-pc:~/src/express$ pnpm i</div>
-      <div class="output-line">Packages: +270</div>
-      <div class="output-line">+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</div>
-      <div class="output-line">Resolving: total 270, reused 259, downloaded 0</div>
-    </div>
-  </div>
-</body>
-</html>
+<div style="background-color: #282c34; color: #f8f8f2; padding: 20px; border-radius: 8px;">
+  <h3>查尔斯的个人技术知识库，记录 & 分享个人碎片化、结构化、体系化的技术知识内容。</h3>
+  <p style="color: #8be9fd;">记忆，对我们来说意味着什么？</p>
+  <p style="color: #f8f8f2;">把脑内那些琐碎的事情整理出来，去处理更复杂繁杂的任务？帮助记忆有价值的信息，减少遗忘？又或者是思维中运作的重要过程，提升你的记忆效果……</p>
+</div>
 
 
 

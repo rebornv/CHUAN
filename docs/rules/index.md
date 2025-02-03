@@ -74,6 +74,28 @@ editLink: false
 
 感谢你访问我的个人博客！如果你有任何问题或想法，随时欢迎联系我。
 
+## 联系我
+
+<div style="background-color: #ffffff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); margin-bottom: 30px;">
+  <h3 style="font-family: 'Arial', sans-serif; font-size: 22px; color: #333;">联系方式</h3>
+  <ul style="list-style-type: none; padding-left: 0;">
+    <li style="font-family: 'Arial', sans-serif; font-size: 16px; color: #555; margin-bottom: 10px;">
+      <strong>邮箱:</strong> [your-email@example.com](mailto:your-email@example.com)
+    </li>
+    <li style="font-family: 'Arial', sans-serif; font-size: 16px; color: #555; margin-bottom: 10px;">
+      <strong>GitHub:</strong> [https://github.com/yourusername](https://github.com/yourusername)
+    </li>
+    <li style="font-family: 'Arial', sans-serif; font-size: 16px; color: #555; margin-bottom: 10px;">
+      <strong>知乎:</strong> [https://www.zhihu.com/people/yourusername](https://www.zhihu.com/people/yourusername)
+    </li>
+    <li style="font-family: 'Arial', sans-serif; font-size: 16px; color: #555; margin-bottom: 10px;">
+      <strong>QQ:</strong> 123456789
+    </li>
+  </ul>
+</div>
+
+---
+
 
 # 关于我
 

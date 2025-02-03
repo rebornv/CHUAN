@@ -5,10 +5,54 @@ next: false
 editLink: false
 ---
 
-<div style="text-align: center;">
-<img src="https://tuchuan.yunlianzhigong.com/i/2025/01/20/m05kb7.jpg" alt="团队会议图片" width="500" style="border: 2px solid #4CAF50; border-radius: 10px;">
-<p style="font-size: 14px; color: gray;">书中自有黄金屋。</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: #282c34;
+      font-family: 'Courier New', Courier, monospace;
+      color: #f8f8f2;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .image-container {
+      text-align: center;
+      margin: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .caption {
+      font-size: 18px;
+      margin-top: 10px;
+      color: #f8f8f2;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="image-container">
+    <img src="your-image-url-here.jpg" alt="Book shelf">
+    <div class="caption">书中自有黄金屋。</div>
+  </div>
+
+</body>
+</html>
+
 
 # 关于我
 

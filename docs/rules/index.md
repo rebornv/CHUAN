@@ -114,7 +114,6 @@ editLink: false
       font-size: 16px;
       white-space: pre-wrap;
       line-height: 1.5;
-      position: relative;
     }
 
     .input-line {
@@ -123,23 +122,6 @@ editLink: false
 
     .output-line {
       color: #f8f8f2;
-    }
-
-    .cursor {
-      display: inline-block;
-      width: 10px;
-      height: 20px;
-      background-color: #f8f8f2;
-      animation: blink 1s infinite;
-      position: absolute;
-      top: 0;
-      left: 100%;
-    }
-
-    @keyframes blink {
-      50% {
-        background-color: transparent;
-      }
     }
   </style>
 </head>
@@ -150,54 +132,16 @@ editLink: false
       <div class="yellow"></div>
       <div class="red"></div>
     </div>
-    <div class="cmd-output" id="cmdOutput">
+    <div class="cmd-output">
       <div class="input-line">zoltan@zoltan-pc:~/src/express$ pnpm i</div>
       <div class="output-line">Packages: +270</div>
       <div class="output-line">+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</div>
       <div class="output-line">Resolving: total 270, reused 259, downloaded 0</div>
-      <span class="cursor"></span>
     </div>
   </div>
-
-  <script>
-    const cmdOutput = document.getElementById('cmdOutput');
-    const cursor = document.querySelector('.cursor');
-
-    // Simulate typing effect
-    const textToType = [
-      'zoltan@zoltan-pc:~/src/express$ pnpm i\n',
-      'Packages: +270\n',
-      '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n',
-      'Resolving: total 270, reused 259, downloaded 0\n'
-    ];
-
-    let i = 0;
-    let j = 0;
-    let line = '';
-
-    function typeLine() {
-      if (i < textToType.length) {
-        line = textToType[i];
-        j = 0;
-        typeCharacter();
-      }
-    }
-
-    function typeCharacter() {
-      if (j < line.length) {
-        cmdOutput.innerHTML = cmdOutput.innerHTML + line[j];
-        j++;
-        setTimeout(typeCharacter, 50); // Adjust speed of typing here
-      } else {
-        i++;
-        setTimeout(typeLine, 500); // Wait before typing the next line
-      }
-    }
-
-    typeLine();
-  </script>
 </body>
 </html>
+
 
 
 

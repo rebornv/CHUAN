@@ -21,6 +21,11 @@ editLink: false
   <img src="https://tuchuan.yunlianzhigong.com/i/2025/02/03/10ond15.jpg" alt="个人头像" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; animation: rotate 10s infinite linear;">
 </div>
 
+<div style="text-align: center; margin-bottom: 40px; width: 150px; height: 150px; border-radius: 50%; overflow: hidden; box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);">
+  <img src="https://tuchuan.yunlianzhigong.com/i/2025/02/03/10ond15.jpg" alt="个人头像" style="width: 100%; height: 100%; object-fit: cover; animation: rotate 10s infinite linear;">
+</div>
+
+
 <style>
   @keyframes rotate {
     0% {

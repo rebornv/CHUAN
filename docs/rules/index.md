@@ -10,10 +10,15 @@ editLink: false
 <p style="font-size: 14px; color: gray;">书中自有黄金屋。</p>
 </div>
 
-
+<div style="text-align: center;">
+  <audio controls>
+    <source src="https://keval.top/MP3/woaini.mp3" type="audio/mp3">
+    您的浏览器不支持音频元素。
+  </audio>
+</div>
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://your-image-link.jpg" alt="个人头像" style="border-radius: 50%; width: 150px; height: 150px; animation: rotate 10s infinite linear;">
+  <img src="https://tuchuan.yunlianzhigong.com/i/2025/02/03/m3lhza.jpg" alt="个人头像" style="border-radius: 50%; width: 150px; height: 150px; animation: rotate 10s infinite linear;">
 </div>
 
 <style>
@@ -27,14 +32,6 @@ editLink: false
   }
 </style>
 
-> **播放音乐：**
-<div style="text-align: center;">
-  <audio controls>
-    <source src="https://keval.top/MP3/woaini.mp3" type="audio/mp3">
-    您的浏览器不支持音频元素。
-  </audio>
-</div>
----
 
 ## 个人信息
 
